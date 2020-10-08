@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
+    background-image: url("https://images.pexels.com/photos/847402/pexels-photo-847402.jpeg?cs=srgb&dl=pexels-walid-ahmad-847402.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+}
+header nav {
+    width: 25rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a {
+    color: white;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.nav-link:hover {
+    text-decoration: underline;
+}
+nav .menu-icon {
+    background-image: url("../icon/marcar\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-left: 1rem;
+}
+nav a .perfil-photo {
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+main {
+    margin-top: 5.2rem;
+    text-align: center;
+}
+main .main-logo {
+    width: auto;
+}
+.logo {
+    width: 29rem;
+    height: 10rem;
+    background-color: transparent;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+main .main-input {
+    width: 53rem;
+    margin: 0 auto;
+}
+.main-input-container {
+    width: 56.1rem;
+    height: 4.2rem;
+    border-radius: 10rem;
+    background-color: #ffffff;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-input-container input {
+    width: 45rem;
+    height: 4.1rem;
+    outline: none;
+    border: none;
+    font-size: 1.6rem;
+    font-family: Arial;
+}
+.search-icon {
+    background-image: url("/icon/lupa.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2.4rem;
+    height: 4.4rem;
+    margin-right: 2rem;
+}
+.micro-icon {
+    background-image: url("/icon/micro.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2.4rem;
+    height: 4.4rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+main .main-visited {
+    margin: 0 auto;
+    width: 100%;
+    height: 26.6rem;
+}
+.container-wrapper {
+    margin: 3rem auto 0 auto;
+    max-width: 53rem;
+    height: 26.6rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.container-visited {
+    width: 10rem;
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-link {
+    width: 100%;
+    height: 11rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon-visited {
+    width: 4.8rem;
+    height: 4.8rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-bottom: 1.6rem;
+}
+.container-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 8.8rem;
+    height: 2.4rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+}
+footer {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    position: fixed;
+}
+footer .container-footer {
+    width: 22.3rem;
+    height: 3.6rem;
+}
+footer .container-footer .footer-link {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: underline;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+}
+footer .container-footer .footer-link .footer-imagen {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+footer .footer-title {
+    line-height: 1.6rem;
+    margin-left: .8rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+footer .footer-icon {
+    width: 3.2rem;
+    height: 3.2rem;
+}
+footer .footer-icon .icon-link {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+footer .footer-icon .icon-link .icon-pencil {
+    width: 1.6rem;
+    height: 1.6rem;
+}
