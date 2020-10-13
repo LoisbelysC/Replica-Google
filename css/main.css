@@ -83,7 +83,7 @@ main .main-logo {
     margin-bottom: 3rem;
 }
 main .main-input {
-    width: 53rem;
+    /* width: 53rem; Esta propiedad estaba desalineando la barra con el resto de elementos */
     margin: 0 auto;
 }
 .main-input-container {
@@ -95,6 +95,8 @@ main .main-input {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    /* Aplique margin auto al contenedor hijo para centrarlo */
 }
 .main-input-container input {
     width: 45rem;
