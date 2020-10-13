@@ -6,6 +6,9 @@
 html {
     font-size: 62.5%;
 }
+:root {
+    --color-hover: #493f4773;
+}
 body {
     font-size: 1.3rem;
     font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
@@ -27,14 +30,12 @@ header nav {
     justify-content: center;
     align-items: center;
 }
-nav a {
-    color: white;
-}
-a {
+nav .nav-link {
     text-decoration: none;
     cursor: pointer;
     padding-left: 1rem;
     padding-right: 1rem;
+    color: #ffffff;
 }
 .nav-link:hover {
     text-decoration: underline;
@@ -48,11 +49,24 @@ nav .menu-icon {
     height: 1.6rem;
     margin-left: 1rem;
 }
-nav a .perfil-photo {
+nav .photo-link .perfil-photo {
     width: 3.2rem;
     height: 3.2rem;
     border-radius: 50%;
-    margin-left: 1rem;
+}
+.photo-link {
+    text-decoration: none;
+    cursor: pointer;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+.photo-link:hover {
+    background-color: var(--color-hover);
+    border-radius: 50%;
 }
 main {
     margin-top: 5.2rem;
@@ -138,6 +152,10 @@ main .main-visited {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.container-link:hover {
+    background-color: var(--color-hover);
+    border-radius: .4rem;
 }
 .icon-visited {
     width: 4.8rem;
