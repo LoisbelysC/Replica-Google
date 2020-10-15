@@ -16,6 +16,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    height: 100vh;
 }
 header {
     width: 100%;
@@ -181,7 +182,8 @@ footer {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    position: fixed;
+    position: absolute;
+    top: 95%;
 }
 footer .container-footer {
     width: 22.3rem;
